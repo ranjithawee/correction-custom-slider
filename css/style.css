@@ -1,0 +1,48 @@
+.banner{
+    background-image: url(../images/banner.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.slider{
+    background-color: rgba(1, 1, 1, 0.8);
+    color: #fff;
+    padding: 70px;
+}
+.slider h1{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.slider p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.slider button{
+    margin-bottom: 100px;
+}
+.custom-indicators {
+    bottom: 40px;
+    top: 30%;
+    left: 5%;
+    display: block;
+    right: 100%;
+    margin-right: 0;
+    margin-left: 0;
+}
+.custom-indicators [data-bs-target]{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+/* button start */
+.custom-prev, .custom-next {
+    top: 230px;
+}
+.custom-prev{
+    left: 68%;
+}
+
+/* button end */
